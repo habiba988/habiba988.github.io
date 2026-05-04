@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="Utf-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <title>Profile page</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+     <link rel="stylesheet" href="profile.css">
+   </head>  
+   <body>
+      <nav class="navbar">
+        <div class="logo">
+            <img src="bon1.jpg" alt="Bon Appetit Logo" class="logo-img">
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">Recipes</a>
+                <a href="#">Compare</a>
+                <a href="#">Profile</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="nav-right">
+                <button class="theme-btn" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+<!--                
+                <a href="#" class="login-btn">Log In</a>
+                <a href="#" class="signup-btn">Sign Up</a>-->
+             </div>
+         </div>
+      </nav>
+       <div class="container">
+	    <div class="card">
+		  <img src="bon1.jpg" class="img">
+		  <h2>Username:<span id="name">name</span></h2>
+		  <p>Email:<span id="email"> email</span></p>
+		</div>  
+		<div class="content">
+          <a href=""class="save"><b>&#9733; My Saved Recipe</b></a>
+		  <button id="signout" onclick="signOut()"> Sign Out</button>
+		  
+	    </div>
+	  </div>	
+		<footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Bon Appetit</h3>
+                <p>We offer a unique experience combining world-class culinary excellence with unforgettable tourism adventures.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyrights &copy; 2026 All rights reserved | made by <b>Bon Appetit</b> Team</p>
+        </div>
+        </footer>
+			<script src="profile.js"></script>
+	<body>
+</html>	
